@@ -20,6 +20,5 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - uses: codecov/codecov-action@v1
         with:
-          token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ./coverage1.xml,./coverage2.xml # optional
+          directory: ./coverage/
           verbose: true # optional (default = false)

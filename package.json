@@ -89,7 +89,8 @@
     ],
     "reporter": [
       "text",
-      "lcov"
+      "lcov",
+      "json"
     ]
   },
   "release": {
